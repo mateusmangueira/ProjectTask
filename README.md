@@ -30,6 +30,6 @@ Se eu chamar a rota `POST /projects` repassando `{ id: 1, title: 'Novo projeto' 
 
 ### Middlewares
 
-- Temos o conceito de middleware abordado para verifica se o projeto com aquele ID existe. Se não existir retorna um erro, caso contrário permite a requisição continuar normalmente;
+- Temos o conceito de middleware abordado para verificar se o projeto com aquele ID existe. Se não existir retorna um erro, caso contrário permite a requisição continuar normalmente;
 
 - Temos um middleware global chamado em todas requisições que imprime (`console.log`) e uma contagem de quantas requisições foram feitas na aplicação até então;
